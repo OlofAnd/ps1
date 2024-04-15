@@ -104,7 +104,7 @@ MonoBehaviour:
   active: 1
   isEnabled:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   fogFalloffMode:
     m_OverrideState: 1
     m_Value: 1
@@ -126,10 +126,10 @@ MonoBehaviour:
     m_Value: 1
   distanceMin:
     m_OverrideState: 1
-    m_Value: 1.32
+    m_Value: 0.36
   distanceMax:
     m_OverrideState: 1
-    m_Value: 2.59
+    m_Value: 1.33
   fogFalloffCurve:
     m_OverrideState: 1
     m_Value: 0.61
