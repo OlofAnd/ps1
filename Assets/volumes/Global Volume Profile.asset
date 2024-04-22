@@ -18,10 +18,10 @@ MonoBehaviour:
     m_Value: 1
   bakedLightingMultiplier:
     m_OverrideState: 1
-    m_Value: 0.42
+    m_Value: 0.44
   vertexColorLightingMultiplier:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.6
   dynamicLightingMultiplier:
     m_OverrideState: 1
     m_Value: 1
@@ -46,10 +46,10 @@ MonoBehaviour:
   active: 1
   isFrameLimitEnabled:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 1
   frameLimit:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 24
   aspectMode:
     m_OverrideState: 1
     m_Value: 3
@@ -113,7 +113,7 @@ MonoBehaviour:
     m_Value: 0
   color:
     m_OverrideState: 1
-    m_Value: {r: 0.49056602, g: 0.49056602, b: 0.49056602, a: 1}
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
   precisionAlpha:
     m_OverrideState: 1
     m_Value: 1
@@ -126,13 +126,13 @@ MonoBehaviour:
     m_Value: 1
   distanceMin:
     m_OverrideState: 1
-    m_Value: 13.2
+    m_Value: 2.17
   distanceMax:
     m_OverrideState: 1
-    m_Value: 54
+    m_Value: 30.58
   fogFalloffCurve:
     m_OverrideState: 1
-    m_Value: 0.61
+    m_Value: 0.6
   heightFalloffEnabled:
     m_OverrideState: 1
     m_Value: 0
@@ -268,7 +268,7 @@ MonoBehaviour:
   active: 1
   isPSXQualityEnabled:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
 --- !u!114 &8791624383045057940
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -296,7 +296,7 @@ MonoBehaviour:
     m_Value: {x: 0, y: 0}
   color:
     m_OverrideState: 1
-    m_Value: 0.62
+    m_Value: 0.592
   chroma:
     m_OverrideState: 1
     m_Value: 0.571
@@ -336,10 +336,10 @@ MonoBehaviour:
     m_Value: 1
   contrast:
     m_OverrideState: 1
-    m_Value: 0.378
+    m_Value: 0.4
   shoulder:
     m_OverrideState: 1
-    m_Value: 0.5
+    m_Value: 0.533
   graypointIn:
     m_OverrideState: 1
     m_Value: 0.18
@@ -373,7 +373,7 @@ MonoBehaviour:
   active: 1
   skyMode:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 2
   framebufferDitherWeight:
     m_OverrideState: 1
     m_Value: 1
@@ -385,7 +385,7 @@ MonoBehaviour:
     m_Value: 0
   skyboxTexture:
     m_OverrideState: 1
-    m_Value: {fileID: 0}
+    m_Value: {fileID: 8900000, guid: 9d2a7e5d28d942e49a1ebc15bd7d1809, type: 3}
     dimension: 1
   tiledLayersSkyHeightScale:
     m_OverrideState: 1
