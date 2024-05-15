@@ -293,7 +293,7 @@ MonoBehaviour:
     m_Value: 0
   geometryPushbackMinMax:
     m_OverrideState: 1
-    m_Value: {x: 0, y: 0}
+    m_Value: {x: 2.6731086, y: 2.6731086}
   color:
     m_OverrideState: 1
     m_Value: 0.592
@@ -308,7 +308,7 @@ MonoBehaviour:
     m_Value: 0.034
   framebufferDither:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.172
   ditherSize:
     m_OverrideState: 1
     m_Value: 1
