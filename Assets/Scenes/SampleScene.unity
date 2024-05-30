@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: e391f00234292cc4f935308c11cf0e54, type: 2}
+  m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -412,7 +412,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &119763346
 GameObject:
@@ -762,6 +762,71 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 148465385}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &162022497
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1445955019}
+    m_Modifications:
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 90.961174
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 90.96117
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.87771606
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8769999
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.295746
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.99998116
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -9.99937e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.006137569
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.7030029
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5685745428231269830, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_Name
+      value: light prefab (LEFT)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
 --- !u!1 &167783377
 GameObject:
   m_ObjectHideFlags: 0
@@ -1704,6 +1769,75 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9cd0a59138346f240a2e3d0f279a97f4, type: 3}
+--- !u!1001 &510695010
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 240.30408
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11.198869
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 935.3019
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.15277104
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.026150938
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9874714
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.029623969
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 2.896
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 197.677
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 3.484
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+      propertyPath: m_Name
+      value: Car
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
 --- !u!1 &511846281
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,7 +2226,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: -13.955, y: 41.246, z: -11.94}
 --- !u!1 &567208683
 GameObject:
@@ -2302,13 +2436,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 572010089}
   m_LocalRotation: {x: 0, y: 0.55904824, z: 0, w: 0.8291351}
-  m_LocalPosition: {x: 215.17696, y: 2.3, z: 194.31262}
+  m_LocalPosition: {x: 251.46, y: 14.75, z: 954.1}
   m_LocalScale: {x: 1, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 963194228}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 67.98, z: 0}
 --- !u!114 &572010095
 MonoBehaviour:
@@ -2412,7 +2546,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &585609369
 GameObject:
@@ -3098,7 +3232,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687107024}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &735041594
+--- !u!1 &717276662
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3106,95 +3240,244 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 735041598}
-  - component: {fileID: 735041597}
-  - component: {fileID: 735041596}
-  - component: {fileID: 735041595}
-  m_Layer: 0
-  m_Name: "utg\xE5ng placeholder"
+  - component: {fileID: 717276667}
+  - component: {fileID: 717276666}
+  - component: {fileID: 717276665}
+  - component: {fileID: 717276664}
+  - component: {fileID: 717276663}
+  m_Layer: 5
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!65 &735041595
-BoxCollider:
+--- !u!114 &717276663
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735041594}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_GameObject: {fileID: 717276662}
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &735041596
-MeshRenderer:
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8cb7fe8cb5b9b04ab156b6963d4d51d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogText: {fileID: 2135145118}
+  dialogParts:
+  - The earth screamed, and the house is what came out. Beneath the house was a hill.
+    The hill kept rising, like a tick filling with blood. Sucking the very essence
+    of life from the surroundings. All to feed the house, on top of the hill. Like
+    a queen on her throne, watching.
+  - 'Bedrooms, bathrooms, halls, corridors and kitchens all dark. Only some windows
+    let any light in. But there was one basement, and it was where she lived: the
+    matriarch, screeching rat-queen cluster of veins and connective tissue and grinning,
+    gashing mouths It was her house.'
+  - "She wanted a family. NEEDED a few loved ones to live with her. It was so lonely
+    in all of those halls and corridors that she couldn't see. No one walking through
+    them but her, all that emptiness like a ringing in her ears. But visitors were
+    not exactly common. She\u2019d have to make some.\r"
+  - "She needed a husband. Yeah, that would  be nice wouldn\u2019t it. A man-of-the-house
+    to shuffle around those hallways at night. Making sure doors were kept locked,
+    scraping his feet along the carpet and sobbing gently into the empty. You know,
+    common husband things. So she concentrated real hard and snapped of a few pieces
+    of herself to grow into little drones, so that she could get to work."
+  - "The drones spread out into the forest and plains outside of the house, her hands
+    and eyes. \u201CWhat do I need to make a husband?\u201D she thought to herself.
+    There sure were a lot of trees and grass around, just doing nothing. so the drones
+    gathered many twigs, sticks, grass and dirt. She could use the hair from the
+    corpses of the people who found the forest and got lost or starved. She tied
+    the sticks together to give the husband a nice set of hair. Two long arms, two
+    long legs, a long body and a long head, all held together with hair and the glue
+    like liquid of her spit. The drones could eat the rest, they earned it.\r"
+  - So soon she had a husband. He was just how she wanted him to be, milling through
+    the halls, wheezing and click-clacking his twiggy hands against the walls and
+    doors and windows, dragging his feet and giving sweet little whimpering cries.
+    It was nice to not be alone anymore. Still it wasn't enough. She didn't want
+    to be a couple, she wanted a family.
+  - A sister would be nice, she thought. Someone to scream at her, someone who would
+    come and keep an eye on her house from afar. What were sisters made of? There
+    was a cemetery nearby, just beyond the treeline, not too far for the drones reach.
+    full of bodies and full of ghosts, buried and trapped in their bodies, screaming
+    and screaming, ready for harvest.
+  - "The drones tunneled down into their graves, biting the corpses and sucking the
+    ghosts out through their necks. They came together, spat them all out in a pile
+    and glued them together, pulling and stretching until the whole big mass was
+    shaped kind of like a woman. A good enough sister, she thought. She'll shriek
+    and make my life worse, press her face against the windows and fill the rooms
+    with jealous looks.\r"
+  - "So now she had a husband to keep her company, and a sister to keep her angry.
+    But what\u2019s the point of being a family if you don\u2019t have any kids?
+    She should have to, she thought, a son and a daughter.They\u2019d love each other
+    and hate her, or love her and hate each other. Either would be nice. They\u2019d
+    bring life and motion and sound, filling up the walls with shivering worm-noise
+    and trying to dig out each other\u2019s eyes.\r"
+  - "Her son would be an inside relative, like her husband. Her daughter would be
+    an outside relative, like her sister. It was easy enough to make her son- boys
+    are simple and sweet. She brought the drones home and used their teeth to bite
+    herself up, sucking up her own blood and spitting it all together in a pool.
+    Her son rose up out of it, made of it, and got right to work running amok all
+    through the lower floors, staining the carpet and leaving smears on the walls.\r"
+  - "Her daughter would be more complicated, she told herself. Daughters always are.
+    So she\u2019d need to be made of complicated things. The spiders of the woods
+    had their own hierarchy, ages-old and complex as anything, and they had eight
+    legs. a too-large number of legs, in truth. The drones went raiding. The spiders
+    fought, bit up the drones til they were nice and swollen, even tore a few of
+    them apart. But once the drones grabbed the queen by the thorax and squeezed
+    her until she burst, it was all over.\r"
+  - "The drones dragged the spiders together, and the spiders were too defeated to
+    care. They mashed them up, squished them together, broken enough that they\u2019d
+    stick but whole enough that there\u2019d be plenty of legs and mandibles and
+    eyes sticking out all over. I have such a lovely daughter, she thought with pride.
+    Her daughter wasted no time vomiting webs all over the place. Some nights the
+    daughter and the sister would meet, conspiring about how to kill her. It was
+    wonderful, she thought, just how it should be."
+  - "Time passed, like it\u2019s wont do. For a while she was happy, but not for
+    long. She started to get bored. All the husband did was scrape his way through
+    the same halls, the same order, whimpering the same pleas and scratching the
+    same walls with the same cluster of sharp wooden twigs. \u201CDon\u2019t you
+    ever do anything interesting,\u201D she shouted, and he tripped and lay still
+    for a long time. Then he just got back up and did his usual thing. \u201CWorthless
+    man,\u201D she thought. \u201CI hope your hair comes undone and you fall apart.\u201D"
+  - "Her sister, on the other hand, was far too lively. No longer content just to
+    mash her eyeless face against the glass, she had found herself some shears and
+    knives to use as hands and had taken to carving up the walls outside, scratching
+    the paint and marking up the wood. \u201CHateful woman,\u201D she thought. \u201CYou\u2019re
+    supposed to envy, not assert yourself.\u201D To make matters worse, she was spending
+    far too much time with her daughter."
+  - "The daughter loved the sister. They had so much in common, after all \u2013
+    they were both made of dead things, they were both locked out. This made her
+    angry. \u201CYou\u2019re supposed to make my daughter hate me,\u201D she thought,
+    \u201Cbut instead you\u2019ve made her love you, and that\u2019s a whole different
+    story.\u201D They went everywhere together, the daughter with her hundreds of
+    slowly grasping spider-legs, the sister with her ghostly sockets always weeping
+    pale fluid. \u201CI\u2019ll make you pay for this, sister of mine.\u201D\r"
+  - "She took solace in her son, the only one that truly loved her, that did anything
+    right. But he was fast congealing, and each inch of carpet he dragged himself
+    across or wallpaper he tripped and fell into took a little bit of him away. She
+    didn\u2019t want to lose him like that, and so she made him come back to the
+    basement. He tripped and fell down the stairs, splattered apart, and ended up
+    just like he\u2019d started: a pool of her blood. \u201CI\u2019ll miss you,\u201D
+    she thought, as the drones lapped him back up.\r"
+  - "She hated her family. They weren\u2019t what she wanted. The drones went to
+    the husband, cornered him in a hallway, pulled out his hair. He fell apart, and
+    they gathered up all the twigs and fallen branches and fed them to one of the
+    living rooms\u2019 fireplaces. His smoke screamed and smelled like rotten teeth.
+    \u201CGood riddance to bad rubbish,\u201D she thought."
+  - "The sister, the drones lured into the woods with a pile of heirloom jewelry
+    and old, unsent letters. When she fell upon her pile to feast, they fell upon
+    her, crushing her soft, pale skull and shredding her apart. All the ghosts that
+    made her sank back down into the soil, no bodies to hold them anymore. They were
+    free. \u201CI\u2019ve done a a good thing,\u201D she thought."
+  - "Her daughter was sad, useless little nothing now that her sister was dead. The
+    drones pulled her apart, little by little, separating out the slick chitinous
+    little corpses she was made of. She didn\u2019t fight, didn\u2019t even bother
+    to say goodbye. \"Ungrateful,\" she thought. \u201CI should never have had a
+    daughter to begin with.\u201D The spiders were gathered up beside the corpse
+    of their queen and buried. The drones didn\u2019t even bother leaving a marker
+    on the grave."
+  - "And so she was alone again, just her and her sinew and her gnashing teeth, alone
+    in that house, in that basement. The drones built monuments over the corpses
+    of her family while she slept. She passed the time talking to herself, making
+    the drones chew off parts of her, trying to will the house to shake her apart.
+    It never did, no matter how much she pulled at the walls. She felt very empty.\r"
+  - "\u201CI hope someone visits me soon,\u201D she thought. \u201CThat\u2019s what
+    she need. Someone I don\u2019t know, someone I didn\u2019t make. That\u2019d
+    be a surprise.\u201D So she opened a little path in the woods near the house
+    and waited. \u201CAs long as they don\u2019t talk to my dead family, I\u2019m
+    sure they\u2019ll come visit me. I\u2019ll invite them in and let them come see
+    me, and then i\u2019ll have the drones chew off all their skin, and I won\u2019t
+    be alone anymore.\u201D\r\n"
+  - "I won\u2019t be alone anymore. When they come visit me.and I\u2019ve let them
+    in and they\u2019ve come to see me and I\u2019ve chewed off all their skin. I
+    won\u2019t be alone anymore. It\u2019ll be so nice not to be alone. I won\u2019t
+    be alone anymore. I hope someone visits me soon. I won\u2019t be alone anymore."
+  letterPause: 0.05
+  partPause: 10
+--- !u!114 &717276664
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735041594}
+  m_GameObject: {fileID: 717276662}
   m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 0ac9aba1beafeb24997cc30de6fbd9bd, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &717276665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717276662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &717276666
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 717276662}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &735041597
-MeshFilter:
+  m_TargetDisplay: 0
+--- !u!224 &717276667
+RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735041594}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &735041598
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 735041594}
+  m_GameObject: {fileID: 717276662}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 239.2, y: 12.7, z: 954.1}
-  m_LocalScale: {x: 5.0041, y: 7.253443, z: 5.0041}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2135145120}
+  - {fileID: 1130859411}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
 --- !u!1 &771059828
 GameObject:
   m_ObjectHideFlags: 0
@@ -4287,7 +4570,54 @@ Transform:
   - {fileID: 1432239855}
   - {fileID: 1594474702}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1067133066
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1067133068}
+  - component: {fileID: 1067133067}
+  m_Layer: 0
+  m_Name: SkyboxManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1067133067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067133066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 935df21ce50d2d940947175318698e18, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSkybox: {fileID: 2100000, guid: b88ebddecd7cfac4897684cda95e1471, type: 2}
+  originalSkybox: {fileID: 2100000, guid: 732c96c30722f2546b74b254345b6750, type: 2}
+  fadeManager: {fileID: 1486409022}
+--- !u!4 &1067133068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067133066}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1106127347
 GameObject:
@@ -4387,6 +4717,95 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106127347}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1130859410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1130859411}
+  - component: {fileID: 1130859414}
+  - component: {fileID: 1130859413}
+  - component: {fileID: 1130859412}
+  m_Layer: 5
+  m_Name: Fade Screen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1130859411
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130859410}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717276667}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &1130859412
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130859410}
+  m_Enabled: 1
+  m_Alpha: 0
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &1130859413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130859410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1130859414
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130859410}
+  m_CullTransparentMesh: 1
 --- !u!1 &1136841130
 GameObject:
   m_ObjectHideFlags: 0
@@ -5239,6 +5658,74 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1374707604}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1376761755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1376761758}
+  - component: {fileID: 1376761757}
+  - component: {fileID: 1376761756}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1376761756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376761755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1376761757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376761755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1376761758
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1376761755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1378522272
 GameObject:
   m_ObjectHideFlags: 0
@@ -5592,6 +6079,11 @@ Transform:
   m_Father: {fileID: 966282041}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1445955019 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: b482bbb5aecb5f049a44ba3a38e1d91b, type: 3}
+  m_PrefabInstance: {fileID: 510695010}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1479133290
 GameObject:
   m_ObjectHideFlags: 0
@@ -5689,6 +6181,52 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1479133290}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1486409021
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1486409023}
+  - component: {fileID: 1486409022}
+  m_Layer: 0
+  m_Name: FadeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1486409022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486409021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbd5ce0436a59c44b9419e066357d8c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeCanvasGroup: {fileID: 1130859412}
+  fadeDuration: 3
+--- !u!4 &1486409023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486409021}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1501102370 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: be9519371f02e0649a4c67a17788bf27, type: 3}
@@ -6048,6 +6586,71 @@ Transform:
   m_Father: {fileID: 966282041}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1623855471
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1445955019}
+    m_Modifications:
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 90.96117
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 90.96117
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.833
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.877
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.296
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.9999812
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.006134855
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0.7030029
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5685745428231269830, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
+      propertyPath: m_Name
+      value: light prefab (RIGHT)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
 --- !u!1 &1629618467
 GameObject:
   m_ObjectHideFlags: 0
@@ -7133,6 +7736,141 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2070583921}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &2135145117
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2135145120}
+  - component: {fileID: 2135145119}
+  - component: {fileID: 2135145118}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2135145118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135145117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: d2c572472b0c5bf418c84c82b20c1be3, type: 2}
+  m_sharedMaterial: {fileID: -7638858712003721487, guid: d2c572472b0c5bf418c84c82b20c1be3, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4280591589
+  m_fontColor: {r: 0.8962264, g: 0.6429259, b: 0.13950695, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2135145119
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135145117}
+  m_CullTransparentMesh: 1
+--- !u!224 &2135145120
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135145117}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 717276667}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1500, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &9182872010262462460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7142,7 +7880,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5020392061983455100, guid: abe7492db4be71b42a8a8ec54405fdc5, type: 3}
       propertyPath: m_LocalPosition.x

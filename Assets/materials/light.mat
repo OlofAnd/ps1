@@ -45,7 +45,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AffineTextureWarpingWeight: 1
+    - _AffineTextureWarpingWeight: 0.611
     - _AlphaClip: 1
     - _AlphaClippingDitherIsEnabled: 1
     - _BRDFMode: 0
@@ -57,7 +57,7 @@ Material:
     - _DrawDistanceOverrideMode: 0
     - _DstBlend: 10
     - _EmissionBakedMultiplier: 1
-    - _FogWeight: 1
+    - _FogWeight: 0.377
     - _LightingBaked: 1
     - _LightingDynamic: 1
     - _LightingMode: 1
