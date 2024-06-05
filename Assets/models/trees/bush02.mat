@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: tree03
+  m_Name: bush02
   m_Shader: {fileID: 4800000, guid: 055eab4e84dc70a47ae75b3125a22de6, type: 3}
   m_ValidKeywords:
   - _ALPHATEST_ON
@@ -53,7 +53,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0d3d09b9503b30b4697df816f525e67d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7ae062c51d01499408b356703a18cfd7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -80,7 +80,7 @@ Material:
     m_Floats:
     - _AffineTextureWarpingWeight: 1
     - _AlphaClip: 1
-    - _AlphaClippingDitherIsEnabled: 0
+    - _AlphaClippingDitherIsEnabled: 1
     - _BRDFMode: 0
     - _Blend: 0
     - _BlendOp: 0
@@ -101,7 +101,7 @@ Material:
     - _LightingDynamic: 1
     - _LightingMode: 0
     - _Metallic: 0
-    - _Mode: 0
+    - _Mode: 1
     - _OcclusionStrength: 1
     - _Parallax: 0.02
     - _PrecisionColorOverrideMode: 0
@@ -123,7 +123,7 @@ Material:
     - _VertexColorMode: 0
     - _ZWrite: 1
     m_Colors:
-    - _AlphaClippingScaleBiasMinMax: {r: 1, g: 0, b: 0, a: 1}
+    - _AlphaClippingScaleBiasMinMax: {r: 1.7195888, g: -0, b: 0, a: 0.5815344}
     - _Color: {r: 0.9063317, g: 0.9063317, b: 0.9063317, a: 1}
     - _DoubleSidedConstants: {r: 1, g: 1, b: 1, a: 0}
     - _DrawDistanceOverride: {r: 100, g: 10000, b: 0, a: 0}

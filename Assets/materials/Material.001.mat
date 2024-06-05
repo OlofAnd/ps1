@@ -92,7 +92,7 @@ Material:
     - _DrawDistanceOverrideMode: 0
     - _DstBlend: 0
     - _EmissionBakedMultiplier: 1
-    - _FogWeight: 0.551
+    - _FogWeight: 0.193
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
